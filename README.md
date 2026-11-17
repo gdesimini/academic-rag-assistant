@@ -4,7 +4,7 @@ Prototipo sperimentale di assistente RAG (Retrieval-Augmented Generation) locale
 ## 🚀 Stack Tecnologico
 * **Backend**: FastAPI (`main.py`)
 * **Motore RAG**: ChromaDB, `pypdf`, Ollama (`llama3` in locale su GPU)
-* **Frontend**: Interfaccia web minimalista con Tailwind CSS (`static/index.html`)
+* **Frontend**: Interfaccia web con Tailwind CSS (`static/index.html`)
 
 ## ⚙️ Funzionalità
 * **Upload e reset automatico**: L'evento `onchange` gestisce l'upload del PDF e il reset pulito del database vettoriale in sequenza.
